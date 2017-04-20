@@ -44,6 +44,6 @@ function ProgressController($interval) {
           vm.done = true;
         }
       }
-    }, 1000);
+    }, 2000);
   }
 }
