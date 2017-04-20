@@ -14,8 +14,8 @@
 </head>
 
 <body>
-    <nav class="ink-navigation">
-        <ul class="menu horizontal navcolor">
+    <nav class="row ink-navigation">
+        <ul class="col s5 menu horizontal navcolor">
             <li>
                 <li><a ui-sref="home" class="navcolor">home</a></li>
                 <li><a ui-sref="upload" class="navcolor">upload</a></li>
@@ -23,6 +23,9 @@
                 <li><a ui-sref="caption" class="navcolor">caption</a></li>
             </li>
         </ul>
+        <div class="col s7">
+          <img src="Logo.png" alt="">
+        </div>
     </nav>
 
     <ui-view></ui-view>

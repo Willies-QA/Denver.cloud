@@ -28,3 +28,7 @@ video#bgvid {
   html { background: url(../images/color-cloud.mp4) #000 no-repeat center center fixed; }
   #bgvid { display: none; }
 }
+
+.ink-navigation {
+  height: 100px;
+}
