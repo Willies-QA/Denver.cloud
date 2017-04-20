@@ -32,3 +32,11 @@ video#bgvid {
 .ink-navigation {
   height: 100px;
 }
+
+.mainclass{
+  width: 100%;
+}
+
+.image img {
+  max-width: 650px;
+}
