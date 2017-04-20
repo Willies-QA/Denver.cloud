@@ -7,5 +7,7 @@ function CaptionController(nounService) {
 
   console.log(nounService.getRandomNoun())
 
-  vm.$onInit = function() {}
+  vm.$onInit = function() {
+    vm.noun = nounService.getRandomNoun();
+  }
 }
