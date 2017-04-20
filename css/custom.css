@@ -15,6 +15,12 @@ video#bgvid {
     background-size: cover;
 }
 
+#title {
+  color: #FFFFFF;
+  text-align: center;
+  margin-top: 32vh;
+}
+
 @media screen and (max-width: 500px) {
   div{width:70%;}
 }
