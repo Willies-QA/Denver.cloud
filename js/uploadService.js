@@ -10,4 +10,4 @@ angular
           uploadedImage = URL
         }
       }
-    }
+    });

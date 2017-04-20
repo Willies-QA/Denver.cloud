@@ -8,7 +8,7 @@
             <div ng-class="{ 'has-error': URLForm.$invalid }">
               <div>
                   <span><input type="text" id="URL" name="URL" class="control" ng-minlength=5 placeholder="your URL here..." ng-model="$ctrl.uploadedImage" required></span>
-                  <button class="ink-button" ng-click="$ctrl.doImage()" ng-disabled="URLForm.$invalid">Interpret</button>
+                  <button class="waves-effect waves-light btn-large" ng-click="$ctrl.doImage()" ng-disabled="URLForm.$invalid">Interpret</button>
                   <span class="error" ng-show="URLForm.URL.$dirty && URLForm.secret.$invalid">
               </div>
           </div>
