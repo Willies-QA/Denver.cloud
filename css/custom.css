@@ -29,9 +29,7 @@ video#bgvid {
   #bgvid { display: none; }
 }
 
-.mainclass{
-  width: 100%;
-}
+
 .image img {
-  max-width: 650px;
+  min-width: 400px;
 }
