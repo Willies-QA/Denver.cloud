@@ -28,3 +28,10 @@ video#bgvid {
   html { background: url(../images/color-cloud.mp4) #000 no-repeat center center fixed; }
   #bgvid { display: none; }
 }
+
+.mainclass{
+  width: 100%;
+}
+.image img {
+  max-width: 650px;
+}
