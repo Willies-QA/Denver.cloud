@@ -19,6 +19,6 @@ video#bgvid {
   div{width:70%;}
 }
 @media screen and (max-device-width: 800px) {
-  html { background: url(../static/media/sunset.mp4) #000 no-repeat center center fixed; }
+  html { background: url(../images/color-cloud.mp4) #000 no-repeat center center fixed; }
   #bgvid { display: none; }
 }
