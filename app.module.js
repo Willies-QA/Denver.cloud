@@ -7,7 +7,7 @@
     }).component('upload', {
       templateUrl: '/templates/upload.html',
       controller: "UploadController"
-    }).component('progress', {
+    }).component('uploadProgress', {
       templateUrl: '/templates/progress.html',
       controller: "ProgressController"
     }).component('caption', {

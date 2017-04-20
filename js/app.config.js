@@ -17,13 +17,13 @@
       }).state({
         name: 'progress',
         url: '/progress',
-        component: 'progress'
+        component: 'uploadProgress'
       }).state({
         name: 'caption',
         url: '/caption',
         component: 'caption'
       });
-      
+
     $urlRouterProvider.otherwise('/')
   }
 }());
