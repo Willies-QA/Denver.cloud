@@ -3,10 +3,7 @@
 
   angular.module('app').config(config)
 
-  config.$inject = ['$stateProvider', '$urlRouterProvider', '$locationProvider']
-
-  function config($stateProvider, $urlRouterProvider, $locationProvider) {
-    $locationProvider.html5Mode(true)
+  function config($stateProvider, $urlRouterProvider) {
 
     $stateProvider
       .state({
@@ -14,14 +11,19 @@
         url: '/',
         component: 'home'
       }).state({
-        name: 'what',
-        url: '/what',
-        component: 'what'
+        name: 'upload',
+        url: '/upload',
+        component: 'upload'
       }).state({
-        name: 'itisdone',
-        url: '/itisdone',
-        component: 'itisdone'
-      })
+        name: 'progress',
+        url: '/progress',
+        component: 'progress'
+      }).state({
+        name: 'caption',
+        url: '/caption',
+        component: 'caption'
+      });
+      
     $urlRouterProvider.otherwise('/')
   }
 }());

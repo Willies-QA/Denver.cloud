@@ -2,13 +2,16 @@
 
   angular.module('app', ['ui.router'])
     .component('home', {
-      templateUrl: '/home.html',
+      templateUrl: '/templates/home.html',
       controller: "HomeController"
-    }).component('what', {
-      templateUrl: '/what.html',
-      controller: "WhatController"
-    }).component('itisdone', {
-      templateUrl: '/itisdone.html',
-      controller: "ItIsDoneController"
-    })
+    }).component('upload', {
+      templateUrl: '/templates/upload.html',
+      controller: "UploadController"
+    }).component('progress', {
+      templateUrl: '/templates/progress.html',
+      controller: "ProgressController"
+    }).component('caption', {
+      templateUrl: '/templates/caption.html',
+      controller: "CaptionController"
+    });
 }())
