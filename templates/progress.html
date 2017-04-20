@@ -9,7 +9,7 @@
       border-style: solid;
       border-width: 5px;
       border-color: gray;
-      font-size: 1.5em;
+      font-size: 2.5em;
       color: white;
     }
 
@@ -19,10 +19,12 @@
       align-items: center;
       justify-content: center;
     }
+
+    .check-done {
+      font-size: 2em;
+    }
   </style>
   <h1 class="center">Analyzing toke on our 75 point scale</h1>
-  <br>
-  <br>
   <br>
   <br>
   <br>
@@ -34,7 +36,7 @@
       }">
       <div class="loader-text">
         <p ng-if="loader.loading">{{loader.text}}</p>
-        <i ng-if="!loader.loading && loader.done" class="material-icons green-text">done</i>
+        <i ng-if="!loader.loading && loader.done" class="material-icons green-text check-done">done</i>
         <div ng-if="loader.loading && !loader.done" class="preloader-wrapper active">
           <div class="spinner-layer spinner-red-only">
             <div class="circle-clipper left">
@@ -50,6 +52,6 @@
     </div>
   </div>
   <div class="center" ng-if="$ctrl.done">
-    <a class="waves-effect waves-light btn-large green" style="font-size: 4em;">Ready</a>
+    <a ui-sref="caption" class="waves-effect waves-light btn-large green" style="font-size: 4em;">Ready</a>
   </div>
 </main>

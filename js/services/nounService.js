@@ -10,9 +10,6 @@
 
       vm.service.getRandomNoun = getRandomNoun
 
-//===============================
-//
-//===============================
 
       function getRandomNoun() {
         return vm.nounsArray[Math.floor(Math.random() * vm.nounsArray.length)]

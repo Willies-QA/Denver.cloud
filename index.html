@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="Smoke-Disturbed-Light.ttf">
         <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://w3cj.github.io/materialize-themes/dist/css/materialize-indigo-light-blue.css">
     <link rel="stylesheet" type="text/css" href="/css/custom.css">
@@ -14,15 +15,15 @@
 </head>
 
 <body>
-    <nav class="ink-navigation">
-        <ul class="menu horizontal navcolor">
+    <nav class="row ink-navigation">
+        <ul class="col s5 menu horizontal navcolor">
             <li>
-                <li><a ui-sref="home" class="navcolor">home</a></li>
                 <li><a ui-sref="upload" class="navcolor">upload</a></li>
-                <li><a ui-sref="progress" class="navcolor">progress</a></li>
-                <li><a ui-sref="caption" class="navcolor">caption</a></li>
             </li>
         </ul>
+        <div class="col s7">
+          <img src="logo-white.png" alt="">
+        </div>
     </nav>
 
     <ui-view></ui-view>
@@ -38,6 +39,7 @@
     <script src="/js/caption.component.js"></script>
     <script src="/js/app.config.js"></script>
     <script src="/js/services/nounService.js"></script>
+    <script src="/js/uploadService.js" charset="utf-8"></script>
 
 </body>
 
